@@ -1,0 +1,377 @@
+    *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+
+/*inicio*/
+    
+    
+    body{
+        background-image: url(../assets/unsplash.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+
+    h1{
+        background-color: rgba(233, 243, 235, 0.438);
+        padding: 20px;
+        display: block;
+        text-align: center;
+        margin: 30px;
+    }
+
+
+    title{
+        background-color: rgba(233, 243, 235, 0.438);
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        display: block;
+    }
+
+
+    h2{
+        display: block;
+        padding: 20px;
+    }
+
+
+
+    .foto1{
+        background-color: rgba(233, 243, 235, 0.438);
+        margin: 25px;
+        display: block;
+        text-align: center;
+    }
+
+
+
+    .foto2{
+        background-color: rgba(233, 243, 235, 0.438);
+        margin: 25px;
+        display: block;
+        text-align: center;
+    }
+
+
+    .NOTA {
+        background-color: rgba(233, 243, 235, 0.438);
+        text-align: center;
+        display: block;
+        margin: 20px;
+        padding: 10px;
+}
+
+.ENVIOS{
+    background-color: rgba(233, 243, 235, 0.438);
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+.A1{
+    background-color: rgba(233, 243, 235, 0.438);
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+.E2{
+    background-color: rgba(233, 243, 235, 0.438);
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+.mapa1{
+    background-color: rgba(233, 243, 235, 0.438);
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+    .mapa2{
+        background-color: rgba(233, 243, 235, 0.438);
+        margin: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    .mail{
+        background-color: rgba(233, 243, 235, 0.438);
+        margin: 25px;
+        display: block;
+        text-align: center;
+    }
+
+    .tel{
+    background-color: rgba(233, 243, 235, 0.438);
+    margin: 25px;
+    display: block;
+    text-align: center;
+}
+
+/*responsive*/
+
+
+@media (max-width:2560px) {
+    .page1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .principal{
+            display: flex;
+            flex-direction: row;
+            height: fit-content;
+            align-items: center;
+            padding: auto;
+            border: auto;
+            margin: auto;
+    }
+
+
+    .servicios {
+        display: grid;
+        padding: 10px;
+        margin: auto;
+        border: auto;
+        width: 100%;
+        height: 100vh;
+        grid-template-rows: repeat(2, 1fr) ;
+        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-areas:
+        "item1 item2 item3"
+        "item4 item5 item6"
+    }
+
+    .tiendas{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+}
+
+
+}
+
+
+@media (max-width:1024px) {
+    .page1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tiendas{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+}
+
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+}
+
+
+    .servicios{
+        display: grid;
+        padding: 10px;
+        margin: auto;
+        border: auto;
+        width: 100%;
+        height: 100vh;
+        grid-template-rows: repeat(3,1fr) ;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-template-areas:
+        "item1 item2"
+        "item3 item4"
+        "item5 item6"
+    }
+}
+
+
+@media (max-width:768px) {
+    .page1 {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+}
+
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    padding: auto;
+    border: auto;
+    margin: auto;
+}
+
+.tiendas{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    padding: auto;
+    border: auto;
+    margin: auto;
+}
+}
+
+
+@media (max-width:425px){
+    .page1{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+}
+
+
+/*este me lo trabaje yo*/
+    .servicios {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+    }
+
+    .tiendas{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: auto;
+        border: auto;
+        margin: auto;
+}
+
+
+    .NOTA {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        padding: 1px;
+        border: 1px;
+        margin: 10px;
+    }
+}
+
+
+
+/*servicios*/
+
+
+.cumpleaños{
+    background-color: rgba(233, 243, 235, 0.438);
+    grid-area: item1;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: 1px;
+}
+
+
+.bodas{
+    background-color: rgba(233, 243, 235, 0.438);
+    grid-area: item2;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: 1px;
+}
+
+
+.aniversarios{
+    background-color: rgba(233, 243, 235, 0.438);
+    grid-area: item3;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: 1px;
+}
+
+
+.condolencias{
+    background-color: rgba(233, 243, 235, 0.438);
+    grid-area: item4;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: 1px;
+}
+
+
+.decoraciones{
+    background-color: rgba(233, 243, 235, 0.438);
+    grid-area: item5;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: 1px;
+}
+
+
+.eventos{
+    background-color: rgba(233, 243, 235, 0.438);
+    grid-area: item6;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin: 1px;
+}
+
+
